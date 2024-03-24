@@ -34,8 +34,10 @@ computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.cpp" -ls
 ```
 
 .h - 130947
+```shell
 computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.h" -ls | awk '{sum+=$7} END {print sum}'
 130947
+```
 6. файл формата .clang в репозитории присутствует в корневой папке.
 ```shell
 computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -name ".clang-format"
