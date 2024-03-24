@@ -41,8 +41,12 @@ computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.h" -ls |
 computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -name ".clang-format"
 ./.clang-format
 ```
-7. Общее количество файлов в каталоге src - 19 объектов формата .h, 10 объектов формата .cpp. Итого - 29 объектов.
-8. Количество файлов, содержащих слово "socket": 
+7. Общее количество файлов в каталоге src - 29 объектов.
+```shell
+computer@MLK:~/Desktop/SimpleAmqpClient-master/src$ tree -a | grep files
+1 directory, 29 files
+```
+9. Количество файлов, содержащих слово "socket": 
 ```shell
 computer@MLK:~/Desktop/SimpleAmqpClient-master$ grep -irl "socket" . | wc -l
 6
