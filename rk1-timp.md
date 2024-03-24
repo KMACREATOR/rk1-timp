@@ -2,11 +2,15 @@
 
 1. Название проекта - SimpleAmqpClient
 
-```computer@MLK:~/Desktop/SimpleAmqpClient-master$ cat README.md```
+```shell 
+computer@MLK:~/Desktop/SimpleAmqpClient-master$ cat README.md
+```
 
 2. Краткое описание проекта: враппер на языке C++ для библиотеки rabbitmq-c (AMQP - Advanced Message Queuing Protocol - открытый протокол для передачи сообщений между компонентами системы.)
 
-```computer@MLK:~/Desktop/SimpleAmqpClient-master$ cat README.md```
+```shell
+computer@MLK:~/Desktop/SimpleAmqpClient-master$ cat README.md
+```
 
 3. Количество файлов: 60
 
