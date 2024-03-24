@@ -10,18 +10,18 @@
 
 3. Количество файлов: 60
 
-```computer@MLK:~/Desktop/SimpleAmqpClient-master$ tree -a | grep files
-9 directories, 60 files```
+```computer@MLK:~/Desktop/SimpleAmqpClient-master$ tree -a | grep files```
+```9 directories, 60 files```
 
 4. Общий размер всех файлов - 532K.
 
-computer@MLK:~/Desktop/SimpleAmqpClient-master$ du -sh .
-532K	.
+```computer@MLK:~/Desktop/SimpleAmqpClient-master$ du -sh .```
+```532K	.```
 
 5. Объем исходного кода:
 .cpp - 184029
-computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.cpp" -ls | awk '{sum+=$7} END {print sum}'
-184029
+```computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.cpp" -ls | awk '{sum+=$7} END {print sum}'```
+```184029```
 
 .h - 130947
 computer@MLK:~/Desktop/SimpleAmqpClient-master$ find . -type f -name "*.h" -ls | awk '{sum+=$7} END {print sum}'
